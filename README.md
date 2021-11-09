@@ -25,14 +25,14 @@ In this project you will build an adventure game using reducers, state, and acti
 
 * Initial state can be defined as an array and as an object.
 * Reducers can be called with the following syntax:
-'''
+```
 let wagon = wagonReducer(undefined, {});
-'''
+```
 
 * After calling the reducer with the syntax showed above, we can create the actions when we call the reducer for different type of actions with the following syntax:
-'''
+```
 wagon = wagonReducer(wagon, {type: 'travel', payload: 1})
 
 wagon = wagonReducer(wagon, {type: 'gather'})
-'''
+```
 
